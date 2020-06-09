@@ -4,7 +4,6 @@ config = {
         "x": 0,
         "y": 0
     }
-
 }
 
 json_schema = {
@@ -18,8 +17,8 @@ json_schema = {
     "animation": "\n  \"Other\": {\n" +
                  "    \"Animation\": {\n" +
                  "      \"AnimationImage\": {\n" +
-                 "        \"X\": " + str(config.get("animation").get("x")) + ",\n" +
-                 "        \"Y\": " + str(config.get("animation").get("y")) + ",\n" +
+                 "        \"X\": " + str(config["animation"]["x"]) + ",\n" +
+                 "        \"Y\": " + str(config["animation"]["y"]) + ",\n" +
                  "       \"ImageIndex\": $FIRST_INDEX$,\n" +
                  "       \"ImagesCount\": $LEN_ELEMENTS$,\n" +
                  "       \"X3\": 0\n" +
