@@ -7,8 +7,6 @@ config = {
 
 }
 
-
-
 json_schema = {
     "background": "  \"Background\": {" +
                   "    \"Image\": {" +
